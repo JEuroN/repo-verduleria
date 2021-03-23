@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: 33vh;
+  margin: 20px 60px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 25vw;
+  height: 25vh;
+  border-radius: 10px;
+  margin-right: 5;
+}
+
+.descrip {
+  width: 45%;
+  padding: 5px;
+}
+
+.card .icon {
+  width: 32px !important;
+  height: 32px !important;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
